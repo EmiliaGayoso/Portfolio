@@ -2,7 +2,7 @@
 import {style} from "./style.jsx"
 
 
-const Boton = ({style, onClick}) => {
+const Boton = ({onClick}) => {
 //   const clickear = () => console.log("click")
   return (
     <div>
