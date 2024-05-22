@@ -1,10 +1,12 @@
 import { style } from './style';
 
-import NavBar from '../../components/NavBar';
 const Contacto = () => {
     return(
-        <NavBar/>
-    )
+    <section id='contacto'>
+        
+    </section>
+)
+    
 }
 
 export default Contacto

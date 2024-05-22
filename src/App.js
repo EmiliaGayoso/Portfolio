@@ -1,4 +1,5 @@
 
+import NavBar from "./components/NavBar/index.jsx";
 import AcercaDeMi from "./views/AcercaDeMi/index.jsx";
 import Conocimientos from "./views/Conocimientos/index.jsx";
 import Contacto from "./views/Contacto/index.jsx";
@@ -9,11 +10,14 @@ import Experiencia from "./views/Experiencia/index.jsx";
 function App() {
   
   return (
-  <AcercaDeMi/>,
-  <Conocimientos/>,
-  <Contacto/>,
-  <Educacion/>,
-  <Experiencia/>
+  <>
+    <NavBar/>
+    <AcercaDeMi/>
+    <Conocimientos/>
+    <Contacto/>
+    <Educacion/>
+    <Experiencia/>
+  </>
   );
 }
 

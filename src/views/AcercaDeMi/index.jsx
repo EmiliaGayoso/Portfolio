@@ -1,8 +1,9 @@
 import { style } from './style';
-import NavBar from '../../components/NavBar';
 const AcercaDeMi = () => {
     return(
-        <NavBar/>
+        <section id='infoPersonal'>
+        
+        </section>
     )
 }
 
