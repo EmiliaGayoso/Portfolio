@@ -10,7 +10,17 @@ import Experiencia from "./views/Experiencia/index.jsx";
 function App() {
   
   return (
+    
   <>
+    <div>
+          <p>Hola!</p>
+          <h1>Soy Maria Emilia Gayoso Martinez</h1>
+          <p>Estudiante de Informatica</p>
+    </div>
+    <div>
+            <a href="#contacto">Contactame!→</a>
+    </div>
+
     <NavBar/>
     <AcercaDeMi/>
     <Conocimientos/>
