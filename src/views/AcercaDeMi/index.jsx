@@ -1,6 +1,6 @@
 import React from 'react';
 import { style } from './style';
-import fotoPerfil from './img/miFoto.jpg'
+import fotoPerfil from '../../imgs/miFoto.jpg'
 const AcercaDeMi = () => {
     return(
         <section id='infoPersonal' style={style.flex}>

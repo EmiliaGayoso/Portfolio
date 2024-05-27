@@ -1,9 +1,9 @@
 import React from 'react';
 import { style } from './style';
-import ux from './img/ux-ui.png';
-import database from './img/database.png';
-import web from './img/desarrollo-web.png';
-import agil from './img/met-agil.png';
+import ux from '../../imgs/ux-ui.png';
+import database from '../../imgs/database.png';
+import web from '../../imgs/desarrollo-web.png';
+import agil from '../../imgs/met-agil.png';
 
 const Conocimientos = () => {
     return(
