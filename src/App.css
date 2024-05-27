@@ -36,33 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.market::after,
+::before {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
-  background-color: #d2fff0;
+  background: rgb(197,230,219);
+  background: linear-gradient(0deg, rgba(97,184,155,1) 0%, rgba(146,212,190,1) 65%,rgb(126, 197, 172)  70%);
 }
 .container {
   height: auto;
   background: #50b191;
   position: relative;
 }
+ 
+
 .content {
   color: #d2fff0;
 }
-section{
+section {
   margin: 5%;
 }
-h1{
-  color: #50b191;
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+h1 {
+  color: white;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 2rem;
 }
 .waves {
-  position: absolute;left: 0;
+  position: absolute;
+  left: 0;
   right: 0;
   height: 200px;
   bottom: 0;
-  bottom: -1%;
   height: 527px;
   width: 100%;
   overflow: hidden;
@@ -78,7 +87,8 @@ h1{
   /*background:rgba(0,0,0, .3);*/
   width: 2402px;
   height: 427px;
-  background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+  background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png)
+    center bottom no-repeat;
   animation: 5s wave ease-in-out infinite alternate;
 }
 .wave.a {
@@ -86,10 +96,10 @@ h1{
 }
 .wave.b {
   background-position: 0 -427px;
-  animation-delay: .6s;
+  animation-delay: 0.6s;
 }
 .wave.c {
-  background-position: 0 0;
+  background-position: 0 10px;
   animation-delay: 1.2s;
 }
 /*.container {
@@ -97,12 +107,9 @@ h1{
 }*/
 @keyframes wave {
   0% {
-    transform: translate(0 , 0);
+    transform: translate(0, 0);
   }
   50% {
-    transform: translate(-80px, 30px);
-  }
-  100% {
-    transform: translate(160px, -20px);
+    transform: translate(-80px, 70px);
   }
 }

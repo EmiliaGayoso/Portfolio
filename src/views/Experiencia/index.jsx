@@ -5,7 +5,7 @@ const Experiencia = () => {
     return(
         <section id='experiencia' style={style.flex}>
             <h1>Experiencia</h1>
-             <div class="container">
+             <div class="container experience">
                 <div class="cards">
                     <div class="card card-one">
                         <h2 class="card-title">Voluntaria</h2>

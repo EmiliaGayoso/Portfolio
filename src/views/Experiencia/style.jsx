@@ -4,6 +4,6 @@ export const style={
         flexDirection:"column",
         justifyContent:"center",
         alignItems:"center",
-        margin:"1%"
+        margin:"0"
     }
 }

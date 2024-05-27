@@ -1,6 +1,6 @@
 import React from 'react';
 import { style } from './style';
-import Card from '~/../../src/components/cardEducacion/index'
+import Card from '../../components/cardEducacion'
 
 const Educacion = () => {
     return(
