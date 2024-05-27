@@ -1,7 +1,10 @@
 export const style = {
     boton: {
-      color: "green",
-      backgroundColor: "yellow", 
-      padding: "10px"
+      margin:"1%",
+      color: "#25723E",
+      backgroundColor: "#BCEBCB", 
+      padding: "10px",
+      border:"1px solid #25723E",
+      borderRadius: "25rem"
     }
   }

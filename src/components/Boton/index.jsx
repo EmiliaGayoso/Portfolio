@@ -1,4 +1,4 @@
-
+import React from 'react';
 import {style} from "./style.jsx"
 
 
@@ -6,7 +6,7 @@ const Boton = ({onClick}) => {
 //   const clickear = () => console.log("click")
   return (
     <div>
-      <button onClick={onClick} style={style}>boton</button>
+     <a href="#contacto"> <button /*onClick={onClick}*/ style={style.boton}>Contatame!</button></a>
     </div>
   );
 }

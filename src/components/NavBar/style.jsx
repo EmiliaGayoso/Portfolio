@@ -1,15 +1,24 @@
 export const style={
     
     nav:{
-        display:"flex"
+        position:"fixed",
+        margin:"0",
+        padding:"1%",
+        display: "flex",
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"top",
+        alignContent:"space-between",
+        
     },
 
     ul:{
+        display:"flex",
         margin: "0px",
-        padding: "20px",
+        padding: "0",
         paddingLeft: "0px",
         paddingRight: "0px",
-        backgroundColor: "#4f00aa"
+        alignItems:"center",
     },
 
     li:{
@@ -17,28 +26,38 @@ export const style={
         margin: "0px",
         display: "inline", 
         padding: "0px",
-        backgroundColor: "#4f00aa"
     },
 
     a:
     {
-        color: "rgb(124, 0, 173)",
-        listStyleType: "none",
+        fontSize:"100%",
         margin: "0px",
         padding: "20px",
-        fontFamily: ('Franklin Gothic Medium', 'Arial Narrow'),
+        fontFamily: "Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol",
         listStyleType: "none",
         textDecoration: "none",
         textAlign: "center",
-        color: "#c666a0"
+        color:"white",
+        fontWeight:"bold"
     },
+    a2:{
+        fontSize:"20px",
+        margin: "0px",
+        padding: "20px",
+        fontFamily: "Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol",
+        listStyleType: "none",
+        textDecoration: "none",
+        textAlign: "center",
+        color:"white",
+        fontWeight:"bold"
+    }
     /*a:hover{
         margin: "0px",
         textDecoration:"underline",
-    },*/
-    presente:{
+    }, presente:{
         textDecoration:"underline"
-    }
+    }*/
+   
     /*.Navegador
     .Navegador ul li a:hover:not(.Presente a)
     {

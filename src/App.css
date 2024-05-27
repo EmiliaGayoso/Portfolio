@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  background-color: #d2fff0;
+}
+.container {
+  height: auto;
+  background: #50b191;
+  position: relative;
+}
+.content {
+  color: #d2fff0;
+}
+section{
+  margin: 5%;
+}
+h1{
+  color: #50b191;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2rem;
+}
+.waves {
+  position: absolute;left: 0;
+  right: 0;
+  height: 200px;
+  bottom: 0;
+  bottom: -1%;
+  height: 527px;
+  width: 100%;
+  overflow: hidden;
+}
+.wave {
+  position: absolute;
+  left: -180px;
+  bottom: 0;
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*width: 100%;*/
+  /*border-radius: 50%;*/
+  /*background:rgba(0,0,0, .3);*/
+  width: 2402px;
+  height: 427px;
+  background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+  animation: 5s wave ease-in-out infinite alternate;
+}
+.wave.a {
+  background-position: 0 -854px;
+}
+.wave.b {
+  background-position: 0 -427px;
+  animation-delay: .6s;
+}
+.wave.c {
+  background-position: 0 0;
+  animation-delay: 1.2s;
+}
+/*.container {
+  position: absolute;
+}*/
+@keyframes wave {
+  0% {
+    transform: translate(0 , 0);
+  }
+  50% {
+    transform: translate(-80px, 30px);
+  }
+  100% {
+    transform: translate(160px, -20px);
+  }
+}
