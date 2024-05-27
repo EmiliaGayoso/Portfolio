@@ -2,19 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {style} from "./style.jsx";
 
-const Card = ({ photo, address, years }) => {
+const Card = ({ name, photo, address, years }) => {
   return (
-    <div className={style.card}>
-      <img src={photo} alt="Education" className={style.photo} />
-      <div className={style.details}>
-        <p>Address: {address}</p>
-        <p>Years: {years}</p>
+    <article style={style.article}>
+      <img src={photo} alt="Education" style={style.photo} />
+      <div style={style.div}>
+        
+        <p style={style.p}><b>{years}</b></p>
+        <p style={style.p}>Escuela: {name}</p>
+        <p style={style.p}>Dirección: {address}</p>
+       
       </div>
-    </div>
+    </article>
   );
 };
 
 Card.propTypes = {
+  name: PropTypes.string.isRequired,
   photo: PropTypes.string.isRequired,
   address: PropTypes.string.isRequired,
   years: PropTypes.string.isRequired,

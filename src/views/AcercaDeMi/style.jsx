@@ -9,17 +9,18 @@ export const style={
     article:{
         display: "flex",
         flexDirection:"row",
-        justifyContent:"space-around",
+        justifyContent:"center",
         alignItems:"center",
         alignContent:"space-around",
-        margin:"1%"
+        margin:"1%",
+        width:"100%"
     },
     div:{
-        width:"40%",
+        width:"30%",
         display:"flex",
         flexDirection:"column",
         justifyContent:"flex-start",
-        margin:"0",
+        margin:"5%",
         padding:"0"
     },
     img:{

@@ -1,14 +1,19 @@
 import React from 'react';
-import {style} from "./style.jsx"
+import {style} from "./style.jsx";
+import PropTypes from 'prop-types';
 
 
-const Boton = ({onClick}) => {
-//   const clickear = () => console.log("click")
+const Boton = ({ text }) => {
   return (
     <div>
-     <a href="#contacto"> <button /*onClick={onClick}*/ style={style.boton}>Contatame!</button></a>
+     <a href="#contacto"> <button style={style.boton}>{text}</button></a>
     </div>
   );
-}
+  
+};
+Boton.propTypes = {
+  text: PropTypes.string.isRequired
+};
+
 
 export default Boton;

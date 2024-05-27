@@ -31,7 +31,7 @@ function App() {
                 <h1 style={style.h1}>Soy Maria Emilia Gayoso Martinez</h1>
                 <p style={style.p}>Estudiante de Informatica</p><br></br>
                 <RedesSociales/>
-                <Boton/>
+                <Boton text='Contactame!'/>
           </div>
         </article>
     </section>

@@ -1,23 +1,31 @@
-
-
-const style = {
-  card: {
-    border: '1px solid #ccc',
-    borderRadius: '5px',
-    padding: '20px',
+export const style = {
+  
+ article:{
+    display:"flex",
+    width:"30%",
+    margin:"2%",
+    flexDirection:"column",
+    justifyContent:"start",
+    borderRadius: '3%',
     marginBottom: '20px',
-    display: 'flex',
-    alignItems: 'center',
+    background:"white"
   },
   photo: {
-    width: '100px',
-    height: '100px',
-    marginRight: '20px',
-    borderRadius: '50%',
+    width: '100%',
+    height: '300px',
+    borderRadius: '2%',
   },
-  details: {
-    flex: '1',
-  },
+ div:{
+    display:"flex",
+    flexDirection:"column",
+    backGroundColor:"white",
+    width:"100%",
+    padding:"2%",
+  }
+,
+p:{
+    margin:"1px",
+    fontSize:"20px"
+}
 }
 
-export default style;
