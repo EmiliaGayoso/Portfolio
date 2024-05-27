@@ -6,10 +6,15 @@ const Educacion = () => {
     return(
         
     <section id='educacion'>
-        <h1>Educacion</h1>
-        <article>
-        <Card/>
-        </article>
+        
+    <div>
+      <Card/>
+        photo="ruta/de/la/foto.jpg"
+        address="Dirección de la institución"
+        years="Años en los que estudié allí"
+      
+    </div>
+  
         
     </section>
     )

@@ -30,10 +30,12 @@ export const style={
         justifyContent:"center"
     },
     p:{
+        color:"white",
         margin:"0",
         textAlign:"justify"
     },
     h2:{
+        color:"white",
         textAlign:"center",
        /* fontFamily:"Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
     */}

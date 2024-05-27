@@ -19,14 +19,14 @@ function App() {
   <NavBar/>
     <div class="content">
 
-      <section id='i'>
+      <section id='i' style={{margin:"1%", padding:"0", width:"70%"}}>
 
         <article style={style.flex}>
-          <div>
-            <img style={style.imagen} src={imagen} alt='img'/>
+          <div style={style.div}>
+            <img style={style.img} src={imagen} alt='img'/>
           </div>
 
-          <div>
+          <div style={style.div}>
                 <p style={style.p}>Hola!</p>
                 <h1 style={style.h1}>Soy Maria Emilia Gayoso Martinez</h1>
                 <p style={style.p}>Estudiante de Informatica</p><br></br>

@@ -1,23 +1,31 @@
 export const style = {
     h1:{
-      fontSize:"2rem",
+      fontSize:"1.8rem",
       fontFamily: "Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol",
     },
     p:{
-      fontSize:"25px",
+      fontSize:"100%",
     },
     imagen:{
       width: "50rem"
     
     },
     flex:{
-      padding:"5%",
-      paddingBottom:"10%",
+      width:"100%",
       display: "flex",
       flexDirection:"row",
-      justifyContent:"space-evenly",
-      alignItems:"center",
-      alignContent:"space-around"
+      justifyContent:"space-between",
+      alignItems:"center"
+    },
+    div:{
+      margin:"5%",
+      width:"40%",
+      height:"auto",
+      padding:"0"
+    },
+    img:{
+      padding:"3%",
+      width:"70%"
     }
     
   }

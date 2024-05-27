@@ -1,17 +1,23 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import {style} from "./style.jsx";
 
-function Card() {
+const Card = ({ photo, address, years }) => {
   return (
-   <article>
-    <div>
-        <img src="https://www.colegiosenbuenosaires.com/wp-content/uploads/2017/12/Instituto-Santa-Cruz-_en-barrio-San-Crist%C3%B3bal.jpg" alt="" />
-        <p><b>Primaria:</b> Instituto Santa Cruz (2010-2019)</p>
+    <div className={style.card}>
+      <img src={photo} alt="Education" className={style.photo} />
+      <div className={style.details}>
+        <p>Address: {address}</p>
+        <p>Years: {years}</p>
+      </div>
     </div>
-    <div>
-        /*preguntar sobre como cambiar los valores de un componente */
-    </div>
-   </article>
   );
-}
+};
+
+Card.propTypes = {
+  photo: PropTypes.string.isRequired,
+  address: PropTypes.string.isRequired,
+  years: PropTypes.string.isRequired,
+};
 
 export default Card;
