@@ -39,6 +39,7 @@ export const style={
         textAlign:"center",
         fontSize:"20px",
         width:"auto",
-        margin:"0"
+        marginTop:"5px",
+        color:"white"
     }
 }

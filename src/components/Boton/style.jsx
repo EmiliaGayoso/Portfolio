@@ -6,5 +6,8 @@ export const style = {
       padding: "10px",
       border:"1px solid #25723E",
       borderRadius: "25rem"
+    },
+     a:{
+        width:"auto"
     }
   }

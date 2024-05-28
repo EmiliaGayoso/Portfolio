@@ -9,6 +9,7 @@ export const style={
         justifyContent:"space-between",
         alignItems:"top",
         alignContent:"space-between",
+        background:"#50B191"
         
     },
 

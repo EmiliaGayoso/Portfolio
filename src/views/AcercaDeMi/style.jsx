@@ -16,7 +16,7 @@ export const style={
         width:"100%"
     },
     div:{
-        width:"30%",
+        width:"40%",
         display:"flex",
         flexDirection:"column",
         justifyContent:"flex-start",

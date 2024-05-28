@@ -5,9 +5,8 @@ import PropTypes from 'prop-types';
 
 const Boton = ({ text }) => {
   return (
-    <div>
-     <a href="#contacto"> <button style={style.boton}>{text}</button></a>
-    </div>
+    <a style={style.a} href="#contacto"> <button style={style.boton}>{text}</button></a>
+    
   );
   
 };

@@ -4,9 +4,11 @@ import Formulario from '../../components/Formulario'
 
 const Contacto = () => {
     return(
-    <section id='contacto'>
-        <h1>Educación</h1>
+    <section id='contacto' style={{display:"flex", flexDirection:"column", justifyContent:"center"}}>
+        <h1>Contactame</h1>
+        
         <Formulario/>
+        
         
     </section>
 )
