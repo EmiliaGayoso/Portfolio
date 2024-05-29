@@ -6,7 +6,7 @@ export const style={
         padding:"1%",
         display: "flex",
         flexDirection:"row",
-        justifyContent:"space-between",
+        justifyContent:"center",
         alignItems:"top",
         alignContent:"space-between",
         background:"#50B191"

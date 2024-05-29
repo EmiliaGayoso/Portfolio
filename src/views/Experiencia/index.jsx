@@ -5,6 +5,7 @@ const Experiencia = () => {
     return(
         <section id='experiencia' style={style.flex}>
             
+            
              <div class="container experience" style={{display:"flex", flexDirection:"column", justifyContent:"center"}}>
                 <div style={{display:"flex",justifyContent:"center",paddingBottom:"1%"}}>
                     <h1>Experiencia</h1>
