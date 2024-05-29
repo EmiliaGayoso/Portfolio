@@ -44,7 +44,7 @@
 body {
   margin: 0;
   background: rgb(197,230,219);
-  background: linear-gradient(0deg, rgba(97,184,155,1) 0%, rgba(146,212,190,1) 65%,rgb(126, 197, 172)  70%);
+  background: linear-gradient(0deg, rgba(97,184,155,1) 0%, rgba(146,212,190,1) 65%,rgb(126, 198, 175)  70%);
 }
 .container {
   height: auto;
