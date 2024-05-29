@@ -3,15 +3,16 @@ import {style} from "./style.jsx";
 import PropTypes from 'prop-types';
 
 
-const Boton = ({ text }) => {
+const Boton = ({ text, link }) => {
   return (
-    <a style={style.a} href="#contacto"> <button style={style.boton}>{text}</button></a>
+    <a style={style.a} href={link}> <button style={style.boton}>{text}</button></a>
     
   );
   
 };
 Boton.propTypes = {
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired
 };
 
 
