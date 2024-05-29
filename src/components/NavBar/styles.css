@@ -1,6 +1,6 @@
-.li a:hover
+nav ul li:hover:not(.nombre)
 {
     margin: 0px;
     text-decoration:underline;
-    color: rgb(142, 142, 142)
+    color: white;
 }

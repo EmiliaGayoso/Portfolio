@@ -6,7 +6,7 @@ const NavBar= ()=>{
         <nav style={style.nav}>
             
             <ul>
-                <li style={style.li}><a href="#i" style={style.a2}>Maria Emilia Gayoso Martinez</a></li>
+                <li class="nombre" style={style.li}><a href="#i" style={style.a2}>Maria Emilia Gayoso Martinez</a></li>
             </ul>
             
             <ul style={style.ul}>

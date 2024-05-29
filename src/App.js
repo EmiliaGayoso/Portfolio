@@ -14,13 +14,13 @@ function App() {
   return (
     
   <>
+  
   <link rel="stylesheet" src="./App.css"></link>
-  <div class="container">
   <NavBar/>
+  <div class="container">
     <div class="content">
-
       <section id='i' style={{margin:"1%", padding:"0", width:"70%"}}>
-
+        
         <article style={style.flex}>
           <div style={style.div}>
             <img style={style.img} src={imagen} alt='img'/>

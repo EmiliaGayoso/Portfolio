@@ -6,10 +6,11 @@ const Experiencia = () => {
         <section id='experiencia' style={style.flex}>
             
             
-             <div class="container experience" style={{display:"flex", flexDirection:"column", justifyContent:"center"}}>
+             <div class="container experience" style={{display:"flex", flexDirection:"column", justifyContent:"center",background:"transparent"}}>
                 <div style={{display:"flex",justifyContent:"center",paddingBottom:"1%"}}>
                     <h1>Experiencia</h1>
                 </div>
+                <br /><br />
                 <div>
                     <div class="cards">
                         <div class="card card-one">

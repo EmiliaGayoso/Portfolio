@@ -4,12 +4,14 @@ export const style={
         position:"fixed",
         margin:"0",
         padding:"1%",
+        width:"100%",
         display: "flex",
         flexDirection:"row",
         justifyContent:"center",
         alignItems:"top",
         alignContent:"space-between",
-        background:"#50B191"
+        background:"#50B191",
+        zIndex:"99999" /* TIAGO TE AMO, MIL GRACIAS */
         
     },
 

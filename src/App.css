@@ -50,6 +50,8 @@ body {
   height: auto;
   background: #50b191;
   position: relative;
+  display: flex;
+  
 }
  
 
